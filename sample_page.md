@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Sample Page"
-permalink: /sample-page.html
+permalink: https://terroncw.github.io/sample-page
 ---
 
 Sample_page content
