@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Sample Page
-filename: sample_page.md
+nav: sample
 ---
 
 Sample_page content

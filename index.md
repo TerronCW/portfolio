@@ -1,3 +1,9 @@
+---
+layout: default
+title: Portfolio home
+nav: home
+---
+
 ## Portfolio
 
 ---

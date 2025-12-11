@@ -9,7 +9,7 @@
     <h1>{{ page.title }}</h1>
     <p>{{ site.description | default: site.github.project_tagline }}</p>
     <nav>
-      <a href="/portfolio">Home</a>
+      <a href="/portfolio">{% if page.nav == home %}<em>Home</em>{% else %}Home{% endif %}</a>
       <a href="/portfolio/sample_page">Sample</a>
     </nav>
     <ul class="downloads">
