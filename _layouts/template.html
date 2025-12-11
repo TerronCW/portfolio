@@ -9,21 +9,15 @@
     <header>
       <h1><a href="{{ "/" | absolute_url }}">Terron Wright's Portfolio 2</a></h1>
       <p>Can I actually add things or what?</p>
-      <ol>
-        <li>Navigation List</li>
-        {% for page in site.pages %}
-        <li><a href={{ page.filename }}>{{ page.title }}</a></li>
-        {% endfor %}
-      </ol>
+<!--      <ol>-->
+<!--        <li>Navigation List</li>-->
+<!--        {% for page in site.pages %}-->
+<!--        <li><a href={{ page.filename }}>{{ page.title }}</a></li>-->
+<!--        {% endfor %}-->
+<!--      </ol>-->
     </header>
 
     <section>
-      <ol>
-        <li>Navigation List</li>
-        {% for page in site.pages %}
-        <li><a href={{ page.filename }}>{{ page.title }}</a></li>
-        {% endfor %}
-      </ol>
       {{ content }}
     </section>
     <footer>
