@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Sample Page"
-permalink: /portfolio/sample-page
+filename: sample_page.md
 ---
 
 Sample_page content
