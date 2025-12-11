@@ -9,12 +9,17 @@
     <header>
       <h1><a href="{{ "/" | absolute_url }}">Terron Wright's Portfolio</a></h1>
     </header>
+    <nav>
+      <ol>
+        {% for page in site.pages %}
+        <li><a href={{ page.filename }}>{{ page.title }}</a></li>
+        {% endfor %}
+      </ol>
+    </nav>
     <section>
       {{ content }}
     </section>
     <footer>
-      {{ page.path }}
-      <p><a href="{% link sample_page.md %}">Link?</a></p>
     </footer>
   </div>
   <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
