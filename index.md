@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Portfolio home
+title: Terron Wright's Portfolio
 nav: home
 ---
 
