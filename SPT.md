@@ -1,9 +1,7 @@
 ---
 layout: default
-title: Sample Page
-nav: sample
+title: Saskatchewan Polytech
+nav: SPT
 ---
 
-Robots and shit
-
-![A robot](/images/robot.png)
+Saskpolytech

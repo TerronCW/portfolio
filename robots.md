@@ -1,7 +1,11 @@
 ---
 layout: default
-title: Sample Page
-nav: sample
+title: Robots
+nav: robots
 ---
 
-Sample_page content
+Sumobot
+Skills bot
+BlueBot
+
+![A robot](/images/robot.png)
