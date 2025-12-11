@@ -8,15 +8,16 @@
   <div class="wrapper">
     <header>
       <h1><a href="{{ "/" | absolute_url }}">Terron Wright's Portfolio</a></h1>
+      <nav>
+        <ol>
+          <li>Navigation List</li>
+          {% for page in site.pages %}
+          <li><a href={{ page.filename }}>{{ page.title }}</a></li>
+          {% endfor %}
+        </ol>
+      </nav>
     </header>
-    <nav>
-      <ol>
-        <li>Navigation List</li>
-        {% for page in site.pages %}
-        <li><a href={{ page.filename }}>{{ page.title }}</a></li>
-        {% endfor %}
-      </ol>
-    </nav>
+
     <section>
       {{ content }}
     </section>
