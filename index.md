@@ -6,18 +6,14 @@ nav: home
 
 ## About Me
 
-Im terron wright, denizen of the empty wastes. 
+I'm Terron Wright, an aspiring developer and enthusiast robotics engineer. I'm currently studying at Saskpolytech, and building internal communications platforms with OuterCatalyst.
 
 ---
 
-## Portfolio
-
-I have done some things, like making robots or going to school
-
 ### Robots
 
-I have made [Robots](/portfolio/robots.html).
+I have constructed numerous [robots](/portfolio/robots.html), including a bluetooth-controlled robot from scratch, participating in Skills Canada's robotics competition in 2017, and a sumobot competition in 2018.
 
 ### School
 
-I went to [SPT](/portfolio/SPT.html).
+I am currently enrolled at [Saskatchewan Polytechnic](/portfolio/SPT.html), taking the Computer Systems Technology course.
