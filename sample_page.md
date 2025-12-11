@@ -1,6 +1,6 @@
 ---
-layout: page
-title: "Sample Page"
+layout: default
+title: Sample Page
 filename: sample_page.md
 ---
 
