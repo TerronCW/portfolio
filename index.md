@@ -16,8 +16,8 @@ I have done some things, like making robots or going to school
 
 ### Robots
 
-I have made [Robots](/robots.html).
+I have made [Robots](/portfolio/robots.html).
 
 ### School
 
-I went to [SPT](/SPT.html).
+I went to [SPT](/portfolio/SPT.html).

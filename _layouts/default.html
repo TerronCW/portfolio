@@ -11,9 +11,11 @@
     <h1>{{ page.title }}</h1>
     <p>{{ site.description }}</p>
     <nav class="navigation">
-      <p><a href="/portfolio">{% if page.nav == "home" %}<strong>Home</strong>{% else %}Home{% endif %}</a></p>
-      <p><a href="/portfolio/robots">Robots</a></p>
-      <p><a href="/portfolio/SPT">SPT</a></p>
+      <ul>
+        <li><p><a href="/portfolio">{% if page.nav == "home" %}<strong>Home</strong>{% else %}Home{% endif %}</a></p></li>
+        <li><p><a href="/portfolio/robots">{% if page.nav == "home" %}<strong>Robots</strong>{% else %}Robots{% endif %}</a></p></li>
+        <li><p><a href="/portfolio/SPT">{% if page.nav == "home" %}<strong>SPT</strong>{% else %}SPT{% endif %}</a></p></li>
+      </ul>
     </nav>
     <ul class="downloads">
 <!--      <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>-->
