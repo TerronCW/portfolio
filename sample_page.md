@@ -1,1 +1,5 @@
-Sample_page text
+layout: page
+title: "Sample Page"
+permalink: /sample-page
+
+Sample_page content
