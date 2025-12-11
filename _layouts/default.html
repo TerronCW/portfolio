@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
 </head>
 <body>
   <nav>
-    <a href="/">Home</a>
-    <a href="/sample_page">Sample</a>
+    <a href="/portfolio">Home</a>
+    <a href="/portfolio/sample_page">Sample</a>
   </nav>
 
   <header>
