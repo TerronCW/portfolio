@@ -4,4 +4,4 @@
 
 ### Category
 
-[Item 1](/sample_page)
+[Item 1](/sample_page.html)
