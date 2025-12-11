@@ -13,7 +13,8 @@
       {{ content }}
     </section>
     <footer>
-      <p><a href="/portfolio/sample-page">Sample page</a></p>
+      {{ page.path }}
+      <p>{% link sample_page.md %}</p>
     </footer>
   </div>
   <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
