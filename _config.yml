@@ -1,6 +1,6 @@
 title: Terron Wright's Portfolio!
 description: Ghost piloting a skeleton made of stardust
-footer: Contact me at [mailto:terroncw@gmail.com](terroncw@gmail.com)!
+email: terroncw@gmail.com
 picture: "/images/Headshot.jpg?raw=true"
 
 remote_theme: pages-themes/minimal@v0.2.0
