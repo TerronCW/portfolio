@@ -2,11 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>{{ page.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href='{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}'>
 </head>
 <body>
+<div class="wrapper">
   <header>
     <h1>{{ page.title }}</h1>
     <img src="{{site.picture | relative_url}}" alt="Picture of Terron Wright" />
@@ -23,8 +25,8 @@
     {{ content }}
   </section>
   <footer>
-    <p><a href="mailto:{{ site.email }}">Contact me at {{ site.email }}</a></p>
+    <p>Contact me at <a href="mailto:{{ site.email }}">{{ site.email }}</a>!</p>
   </footer>
-
+</div>
 </body>
 </html>
