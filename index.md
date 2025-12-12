@@ -7,7 +7,9 @@ nav: home
 ## About Me
 
 I'm Terron Wright, an aspiring developer and enthusiast robotics engineer. I'm currently studying at Saskpolytech, and building internal communications platforms with OuterCatalyst.
+
 Throughout my journey, I have picked up many skills, my favourite among them being spreadsheets, Linux, and far too much knowledge about space.
+
 I'm also an avid Urbanist, and take my bike too far in a city without enough sidewalks, let alone biking infrastructure.
 
 ---
